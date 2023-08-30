@@ -14,7 +14,7 @@ fi
 DOWNLOAD_PATH_TAR="$DOWNLOAD_PATH.tar.gz"
 
 # Download datasets
-wget http://nlp.dmis.korea.edu/projects/biobert-2020-checkpoints/datasets.tar.gz -O "$DOWNLOAD_PATH_TAR"
+curl -O <URL> http://nlp.dmis.korea.edu/projects/biobert-2020-checkpoints/datasets.tar.gz -O "$DOWNLOAD_PATH_TAR"
 tar -xvzf "$DOWNLOAD_PATH_TAR"
 rm "$DOWNLOAD_PATH_TAR"
 
